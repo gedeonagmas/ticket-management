@@ -5,7 +5,7 @@ let tag = [];
 export const apiSlice = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://ticket-management-7a5o.onrender.com/ticket/app/v1",
+    baseUrl: "https://tasks.skylightethiopia.com",
 
     // baseUrl: "http://localhost:5001/ticket/app/v1",
   }),
