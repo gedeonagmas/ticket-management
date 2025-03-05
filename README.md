@@ -29,6 +29,7 @@ This Ticket management application is a comprehensive web application that offer
 - Secure password reset with email verification
 - Ticket creation, reading, updating, and deletion
 - Ticket export as PDF and Excel spreadsheet
+- Generate QRCODE and Barcode
 - Fully dark and light mode
 
 # Real-time chat with the following features:
@@ -73,7 +74,7 @@ This Ticket management application is a comprehensive web application that offer
 
 ## The front-end is deployed on Vercel [Click Here](https://ticket-gold.vercel.app),
 
-## the back-end is deployed on Render [Click Here](https://ticket-management-7a5o.onrender.com)
+## the back-end is deployed on Cpanel [Click Here](https://tasks.skylightethiopia.com)
 
 # You can check out the live demo at [Link Here](https://ticket-gold.vercel.app) at https://ticket-gold.vercel.app
 
