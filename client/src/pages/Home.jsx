@@ -13,7 +13,7 @@ const Home = () => {
             5 years of experience. i have been built a diverse portfolio of full
             stack applications.
           </p>
-        
+
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a
               href="#"

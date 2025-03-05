@@ -73,7 +73,7 @@ const Message = () => {
   }, []);
 
   useEffect(() => {
-    setSocket(io("https://keradion.onrender.com"));
+    setSocket(io("https://ticket-management-7a5o.onrender.com"));
   }, []);
 
   useEffect(() => {
