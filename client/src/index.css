@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  display: none;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  height: 0px;
+  background: rgba(0, 0, 0, 0.2);
+} */
+/* * { */
+/* border-style: solid;
+  border-color: rgb(77, 78, 78);
+  border-width: 1px; */
+/* } */
+.container {
+  @apply w-full  text-gray-500 h-[80vh] bg-gray-200 flex items-center justify-center flex-col;
+}
+.inputField {
+  @apply w-full rounded-sm border px-2 py-2 border-blue-400 focus:outline-blue-500;
+}
+.label {
+  @apply mt-4 py-1 self-start;
+}
+.small {
+  @apply text-[10.56px] font-semibold;
+}
+.title {
+  @apply text-[15px];
+}
+.medium {
+  @apply text-[12px];
+}
+.center {
+  @apply flex w-full items-center justify-center h-full;
+}
+.centers {
+  @apply flex items-center justify-center;
+}
+
+.button-nb {
+  @apply px-3 py-[6px] border text-black border-gray-200  rounded-sm;
+}
+.grids {
+  @apply grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}
+.input {
+  @apply border border-gray-300 p-2 rounded-sm;
+}
+
+.px-main {
+  @apply px-[8%];
+}
+
+.bg-main {
+  @apply bg-[rgb(223,39,38)];
+}
+.text-main {
+  @apply text-[rgb(223,39,38)];
+}
+
+.bg-main-black {
+  @apply bg-[#4caedfba];
+}
+.text-dark {
+  @apply dark:text-gray-400;
+}
+.bg-dark {
+  @apply dark:bg-gray-800;
+}
+.border-dark {
+  @apply dark:border-gray-600;
+}
+.pr-main {
+  @apply pr-[8%];
+}
+.pl-main {
+  @apply pl-[8%];
+}
+.py-main {
+  @apply py-[8%];
+}
+.mr-main {
+  @apply mr-[8%];
+}
+.ml-main {
+  @apply ml-[8%];
+}
+.right-main {
+  @apply right-[8%];
+}
+.mx-main {
+  @apply mx-[8%];
+}
+.border-main {
+  @apply border-[rgb(223,39,38)];
+}
+.slick-slider .slick-slide {
+  padding: 0 15px;
+}
