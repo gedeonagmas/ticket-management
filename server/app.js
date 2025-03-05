@@ -21,11 +21,11 @@ app.use(
 app.use(express.json());
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(cookieParser());
-app.use("/ticket/app/v1/user", router);
-app.use("/ticket/app/v1/chat", chatRouter);
+app.use("/user", router);
+app.use("/chat", chatRouter);
 
 app.get("/", (req, res) => {
-  res.json("Hello from ticket server");
+  res.json("Hello from server");
 });
 
 app.all("*", (req, res, next) => {
